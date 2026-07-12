@@ -1,0 +1,155 @@
+.algo-hero {
+  padding: calc(var(--space-24) + 60px) 0 var(--space-16);
+  position: relative;
+  overflow: hidden;
+}
+
+.algo-hero__bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(99, 102, 241, 0.05) 0%, transparent 100%);
+}
+
+.algo-hero__title {
+  font-size: var(--font-size-5xl) !important;
+}
+
+/* ===== PIPELINE TIMELINE ===== */
+.pipeline {
+  position: relative;
+  padding: var(--space-8) 0;
+}
+
+.pipeline__line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 28px;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    var(--thermal-cold) 0%,
+    var(--accent) 25%,
+    var(--thermal-warm) 50%,
+    var(--thermal-hot) 75%,
+    #22c55e 100%
+  );
+  opacity: 0.3;
+}
+
+.pipeline__step {
+  display: flex;
+  gap: var(--space-8);
+  margin-bottom: var(--space-10);
+  position: relative;
+}
+
+.pipeline__marker {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 2px solid var(--step-color, var(--accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
+
+.pipeline__num {
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  color: var(--step-color, var(--accent-light));
+}
+
+.pipeline__card {
+  flex: 1;
+  padding: var(--space-8);
+}
+
+.pipeline__card-header {
+  margin-bottom: var(--space-4);
+}
+
+.pipeline__step-label {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-2);
+  display: block;
+}
+
+.pipeline__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pipeline__desc {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-6);
+}
+
+.pipeline__formula {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-6);
+  margin-bottom: var(--space-6);
+  overflow-x: auto;
+}
+
+.pipeline__formula code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: var(--font-size-sm);
+  color: var(--accent-light);
+  white-space: nowrap;
+}
+
+.pipeline__image-wrapper {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.pipeline__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .pipeline__line {
+    left: 20px;
+  }
+
+  .pipeline__marker {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pipeline__num {
+    font-size: var(--font-size-sm);
+  }
+
+  .pipeline__step {
+    gap: var(--space-4);
+  }
+
+  .pipeline__card {
+    padding: var(--space-5);
+  }
+
+  .pipeline__title {
+    font-size: var(--font-size-xl);
+  }
+
+  .algo-hero__title {
+    font-size: var(--font-size-4xl) !important;
+  }
+}

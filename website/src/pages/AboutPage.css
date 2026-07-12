@@ -1,0 +1,123 @@
+.about-hero {
+  padding: calc(var(--space-24) + 60px) 0 var(--space-16);
+  position: relative;
+}
+
+.about-hero__bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(99, 102, 241, 0.04) 0%, transparent 100%);
+}
+
+.about-hero__title {
+  font-size: var(--font-size-5xl) !important;
+}
+
+/* ===== LAYOUT ===== */
+.about__grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+/* Developer Card */
+.about__dev-card {
+  text-align: center;
+  padding: var(--space-10) var(--space-8);
+  position: sticky;
+  top: 100px;
+}
+
+.about__dev-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto var(--space-6);
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px var(--accent-glow);
+}
+
+.about__dev-avatar-placeholder {
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  color: white;
+}
+
+.about__dev-name {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.about__dev-age {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-6);
+}
+
+.about__jufo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--thermal-warm);
+}
+
+/* Content Cards */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.about__section-card {
+  padding: var(--space-8);
+}
+
+.about__card-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+}
+
+.about__card-text {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.about__contact {
+  border-color: var(--border-accent);
+}
+
+.about__email-btn {
+  margin-top: var(--space-6);
+}
+
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__dev-card {
+    position: static;
+  }
+
+  .about-hero__title {
+    font-size: var(--font-size-4xl) !important;
+  }
+}
