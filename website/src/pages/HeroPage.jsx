@@ -18,10 +18,10 @@ export default function HeroPage() {
   });
 
   const screenshots = [
-    { key: 'landing', src: '/screenshots/landingpage.png', label: t('preview.tab_landing') },
-    { key: 'analysis', src: '/screenshots/programm_usage.png', label: t('preview.tab_analysis') },
-    { key: 'steps', src: '/screenshots/schritte.png', label: t('preview.tab_steps') },
-    { key: 'results', src: '/screenshots/ergebnissdiagramm.png', label: t('preview.tab_results') },
+    { key: 'landing', src: '/screenshots/landingpage.webp', label: t('preview.tab_landing') },
+    { key: 'analysis', src: '/screenshots/programm_usage.webp', label: t('preview.tab_analysis') },
+    { key: 'steps', src: '/screenshots/schritte.webp', label: t('preview.tab_steps') },
+    { key: 'results', src: '/screenshots/ergebnissdiagramm.webp', label: t('preview.tab_results') },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function HeroPage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            <img src="/logo.png" alt="IGNITE Logo" className="hero__logo" />
+            <img src="/logo.webp" alt="IGNITE Logo" className="hero__logo" />
             <div className="hero__logo-glow" />
           </motion.div>
 

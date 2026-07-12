@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__inner">
           <div className="footer__brand">
-            <img src="/logo.png" alt="IGNITE" className="footer__logo" />
+            <img src="/logo.webp" alt="IGNITE" className="footer__logo" />
             <div>
               <h3 className="footer__title">IGNITE</h3>
               <p className="footer__tagline">{t('hero.subtitle')}</p>

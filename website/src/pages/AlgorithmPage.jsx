@@ -18,7 +18,7 @@ export default function AlgorithmPage() {
       title: t('algorithm.step1_title'),
       desc: t('algorithm.step1_desc'),
       formula: t('algorithm.step1_formula'),
-      image: '/pipeline/step1_original.png',
+      image: '/pipeline/step1_original.webp',
       color: 'var(--thermal-cold)',
     },
     {
@@ -26,7 +26,7 @@ export default function AlgorithmPage() {
       title: t('algorithm.step2_title'),
       desc: t('algorithm.step2_desc'),
       formula: t('algorithm.step2_formula'),
-      image: '/pipeline/step2_mask.png',
+      image: '/pipeline/step2_mask.webp',
       color: 'var(--accent)',
     },
     {
@@ -34,7 +34,7 @@ export default function AlgorithmPage() {
       title: t('algorithm.step3_title'),
       desc: t('algorithm.step3_desc'),
       formula: t('algorithm.step3_formula'),
-      image: '/pipeline/step3_heat_diff.png',
+      image: '/pipeline/step3_heat_diff.webp',
       color: 'var(--thermal-warm)',
     },
     {
@@ -50,7 +50,7 @@ export default function AlgorithmPage() {
       title: t('algorithm.step5_title'),
       desc: t('algorithm.step5_desc'),
       formula: t('algorithm.step5_formula'),
-      image: '/pipeline/step4_hotspots.png',
+      image: '/pipeline/step4_hotspots.webp',
       color: '#22c55e',
     },
   ];

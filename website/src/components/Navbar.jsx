@@ -32,7 +32,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <Link to="/" className="navbar__logo" id="nav-logo">
-          <img src="/logo.png" alt="IGNITE Logo" className="navbar__logo-img" />
+          <img src="/logo.webp" alt="IGNITE Logo" className="navbar__logo-img" />
           <span className="navbar__logo-text">IGNITE</span>
         </Link>
 
