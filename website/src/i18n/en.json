@@ -133,7 +133,7 @@
   "download": {
     "title": "Download IGNITE",
     "subtitle": "Download the free desktop application and start with thermographic inflammation detection.",
-    "button": "Download for Windows",
+    "button": "Download on GitHub",
     "size": "File size: ~79 MB",
     "version": "Version 2.4.1",
     "req_title": "System Requirements",
@@ -148,8 +148,7 @@
     "install_step2_desc": "Start the downloaded file and follow the installation wizard.",
     "install_step3": "Launch IGNITE",
     "install_step3_desc": "Open IGNITE via the desktop icon and load your first thermal image.",
-    "disclaimer": "IGNITE is a research project and not a substitute for medical diagnosis.",
-    "releases_page": "Alternative: Releases Page on GitHub"
+    "disclaimer": "IGNITE is a research project and not a substitute for medical diagnosis."
   },
   "about": {
     "title": "About the Project",

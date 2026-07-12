@@ -133,7 +133,7 @@
   "download": {
     "title": "IGNITE herunterladen",
     "subtitle": "Lade die kostenlose Desktop-Anwendung herunter und starte mit der thermografischen Entzündungsdetektion.",
-    "button": "Download für Windows",
+    "button": "Auf GitHub herunterladen",
     "size": "Dateigröße: ~79 MB",
     "version": "Version 2.4.1",
     "req_title": "Systemanforderungen",
@@ -148,8 +148,7 @@
     "install_step2_desc": "Starte die heruntergeladene Datei und folge dem Installationsassistenten.",
     "install_step3": "IGNITE starten",
     "install_step3_desc": "Öffne IGNITE über das Desktop-Icon und lade dein erstes Wärmebild.",
-    "disclaimer": "IGNITE ist ein Forschungsprojekt und kein Ersatz für ärztliche Diagnose.",
-    "releases_page": "Alternative: Releases-Seite auf GitHub"
+    "disclaimer": "IGNITE ist ein Forschungsprojekt und kein Ersatz für ärztliche Diagnose."
   },
   "about": {
     "title": "Über das Projekt",
